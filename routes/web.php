@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/larinprofil', function () {
+    return view('profil');
+});
